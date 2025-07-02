@@ -25,6 +25,9 @@ function App() {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h1>Weather App</h1>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
+        <img src="https://img.icons8.com/ios/100/000000/partly-cloudy-day--v1.png" alt="Cloud and Sun" style={{ marginRight: '10px' }} />
+      </div>
       <input
         type="text"
         placeholder="Enter city name"
